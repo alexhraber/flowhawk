@@ -1,3 +1,6 @@
+
+[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/3fc5f86e-057c-416f-87bd-99026f8ec16d.svg)](https://oosmetrics.com/repo/alexhraber/flowhawk)
+
 # FlowHawk
 
 ```text
@@ -27,8 +30,6 @@
 ![Go Version](https://img.shields.io/badge/go-1.23+-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Unix%20%7C%20macOS%20%7C%20Linux-green.svg)
 ![eBPF](https://img.shields.io/badge/eBPF-enabled-orange.svg)
-
-[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/3fc5f86e-057c-416f-87bd-99026f8ec16d.svg)](https://oosmetrics.com/repo/alexhraber/flowhawk)
 
 ## What Makes FlowHawk Special
 
