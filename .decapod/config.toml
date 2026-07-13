@@ -1,0 +1,38 @@
+schema_version = "1.0.0"
+
+[init]
+specs = true
+ci = true
+diagram_style = "ascii"
+entrypoints = [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "GEMINI.md",
+    "CODEX.md",
+]
+
+[repo]
+product_name = "flowhawk"
+product_summary = "[![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/3fc5f86e-057c-416f-87bd-99026f8ec16d.svg)](https://oosmetrics.com/repo/alexhraber/flowhawk)"
+architecture_direction = "infra"
+product_type = "service_or_library"
+done_criteria = "Decapod validate passes, required tests pass, and promotion-relevant artifacts are present."
+primary_languages = ["Go"]
+detected_surfaces = [
+    "go",
+    "shell",
+]
+external_tracker = false
+container_workspaces = true
+mode = "local"
+declared_capabilities = [
+    "authentication",
+    "background-processing",
+    "event-driven",
+    "external-integrations",
+    "infrastructure-management",
+    "persistent-state",
+    "public-api",
+    "scheduled-jobs",
+    "secrets-handling",
+]
