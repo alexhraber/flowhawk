@@ -1,6 +1,6 @@
 
 [![oosmetrics](https://api.oosmetrics.com/api/v1/badge/achievement/3fc5f86e-057c-416f-87bd-99026f8ec16d.svg)](https://oosmetrics.com/repo/alexhraber/flowhawk)
-[![Decapod](https://img.shields.io/badge/Decapod-v0.66.3-4A90D9?logo=gear&logoColor=white)](https://github.com/stacklok/decapod)
+[![🦀 Decapod](https://img.shields.io/badge/🦀%20Decapod-v0.66.3-dc2626)](https://github.com/DecapodLabs/decapod)
 
 # FlowHawk
 
