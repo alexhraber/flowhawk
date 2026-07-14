@@ -119,7 +119,7 @@ Use `zap` or `zerolog` with structured fields and propagated context ids.
 <!-- decapod:codebase-attestation:start -->
 ## Codebase Attestation
 
-- Repository signal fingerprint: `3dc97c87e5401003fe80f8487318bdb19e61036d8f22ae73bd87da7acb2831db`
+- Repository signal fingerprint: `0b2f71011578e9a165366e1c2f8f88ce53486ce97d7b3d0d5efced454f401840`
 - Significant implementation surfaces: `.github/` (4 files), `Dockerfile/` (1 files), `Makefile/` (1 files), `README.md/` (1 files), `docker-compose.yml/` (1 files), `examples/` (2 files), `go.mod/` (1 files), `go.sum/` (1 files), `tests/` (1 files)
 - Refreshed from the current codebase by `decapod specs.refresh`
 <!-- decapod:codebase-attestation:end -->
