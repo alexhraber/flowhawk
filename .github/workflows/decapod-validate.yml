@@ -33,4 +33,4 @@ jobs:
           WORKSPACE_OUTPUT=$(decapod workspace ensure 2>&1)
           WORKSPACE_DIR=$(echo "$WORKSPACE_OUTPUT" | sed -n 's/.*"worktree_path": *"\([^"]*\)".*/\1/p')
           cd "$WORKSPACE_DIR"
-          decapod validate
+          decapod validate --refresh-specs
