@@ -28,9 +28,9 @@ jobs:
           DECAPOD_VALIDATE_SKIP_GIT_GATES: 1
         run: |
           decapod init --proof
-          TASK_ID=$(decapod todo add "CI validation" --format json 2>/dev/null | grep -o '"id":"[^"]*"' | head -1 | cut -d'"' -f4)
+          TASK_ID=$(decapod todo add "CI validation" --format json 2>/dev/null | sed -n 's/.*"id": *"\([^"]*\)".*/\1/p')
           decapod todo claim --id $TASK_ID
           WORKSPACE_OUTPUT=$(decapod workspace ensure 2>&1)
-          WORKSPACE_DIR=$(echo "$WORKSPACE_OUTPUT" | grep -o '"worktree_path":"[^"]*"' | cut -d'"' -f4)
+          WORKSPACE_DIR=$(echo "$WORKSPACE_OUTPUT" | sed -n 's/.*"worktree_path": *"\([^"]*\)".*/\1/p')
           cd "$WORKSPACE_DIR"
           decapod validate
